@@ -157,7 +157,7 @@ input:checked + label::before {
   margin-left: 17em;
 }
 
-.next-button-back, .next-button-specialites{
+.button-back, .next-button-specialites{
   margin-left: 13em;
   margin-top: 24em;
   width: 20%;
@@ -166,6 +166,6 @@ input:checked + label::before {
 .next-button-specialites{
   margin-left: 11em;
 }
-.inline .next-button-back, .next-button-specialites{
+.inline .button-back, .next-button-specialites{
 display: inline-block;
 }
