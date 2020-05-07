@@ -40,20 +40,21 @@ h1{
   src: url('assets/Maax Rounded.otf');
 }
 
-p{
+.moment-p p{
   font-family: "Maax Rounded";
+  font-size: 1.5em;
   line-height: 2.5em;
-  margin-left: -4em;
+  margin-left: 2em;
   text-align: center;
   margin-bottom: 5em;
   color: #5A4543;
   margin-top: -1em;
 }
-/* partie checkbox*/
+/* ---------------partie checkbox----------------------*/
 
 .moment-container {
     display: inline-grid;
-    margin-left: 15em;
+    margin-left: 11em;
 
 }
 
@@ -96,19 +97,13 @@ header label::before {
     border-radius: 100px;
     transition: background-color .2s;
 }
-/* lifestyle page*/
-.icone-infos button{
-  border: none;
-  color:inherit;
-  padding: 0px 0px;
+
+.moment-container label{
+  padding: 35px 250px 45px 253px;
+  border-radius: 47px;
 }
 
-.lifestyle-p{
-  margin-left: 2em;
-  margin-top: -1em;
-}
-
-.what-container label::before {
+.moment-container label::before {
   content: '';
   display: block;
   position: absolute;
@@ -154,7 +149,11 @@ input:checked + label::before {
 
 .specialites-container{
   display: inline-grid;
-  margin-left: 17em;
+  margin-left: 13em;
+}
+.specialites-container label{
+  padding: 23px 221px 30px 218px;
+  border-radius: 47px;
 }
 
 .button-back, .next-button-specialites{
