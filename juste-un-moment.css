@@ -10,13 +10,13 @@ body{
 @font-face {
 	font-family: "Maax Rounded";
 	font-style: italic;
-  src: url('assets/Maax Rounded.otf');
+  src: url('assets/Maax Rounded Italic.otf');
 }
 
 @font-face {
 	font-family: "Maax Rounded";
 	font-weight: bold;
-  src: url('assets/Maax Rounded.otf');
+  src: url('assets/Maax Rounded Bold.otf');
 }
 
 .logo img{
