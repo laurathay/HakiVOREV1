@@ -1,0 +1,142 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFFBF7;
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	src: url('assets/Maax Rounded.otf');
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	font-style: italic;
+  src: url('assets/Maax Rounded Italic.otf');
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	font-weight: bold;
+  src: url('assets/Maax Rounded Bold.otf');
+}
+
+.logo-rouge img{
+  width: 8%;
+  margin-left: 26em;
+  margin-top: 7em;
+}
+
+h1{
+  font-weight: 800;
+  margin-top: 1em;
+  margin-left: 8em;
+  color: #5A4543;
+  font-size: xxx-large;
+  font-style: bold;
+  font-family: "Maax Rounded";
+  font-weight: bold;
+  src: url('assets/Maax Rounded.otf');
+}
+
+p{
+  font-family: "Maax Rounded";
+  line-height: 2.5em;
+  margin-left: -4em;
+  text-align: center;
+  margin-bottom: 5em;
+  color: #5A4543;
+  margin-top: -1em;
+}
+/* partie checkbox*/
+
+.moment-container {
+    display: inline-grid;
+    margin-left: 15em;
+
+}
+
+input {
+  position: absolute;
+  left: -9999px;
+}
+
+header label{
+   margin: 14px;
+   padding: 11px 22px 11px 21px;
+}
+
+label {
+  font-family: "Maax Rounded";
+  font-style: bold;
+  font-size: 1.4em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 25px;
+  padding: 20px 159px 30px 164px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #F84339;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+header label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 21px;
+    bottom: 23px;
+    left: 15px;
+    width: 3px;
+    border-radius: 100px;
+    transition: background-color .2s;
+}
+/* lifestyle page*/
+.icone-infos button{
+  border: none;
+  color:inherit;
+  padding: 0px 0px;
+}
+
+.lifestyle-p{
+  margin-left: 2em;
+  margin-top: -1em;
+}
+
+.what-container label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 21px;
+  bottom: 23px;
+  left: 13px;
+  width: 0px;
+  border-radius: 100px;
+  transition: background-color .2s;
+}
+
+
+label:hover, input:focus + label {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+input:checked + label {
+  background-color: black;
+  color: #fff;
+}
+
+input:checked + label::before {
+  background-color: #fff;
+}
+
+
+.next-button{
+  margin-left: 43em;
+  margin-top: 35em;
+  width: 20%;
+}
