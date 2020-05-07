@@ -3,6 +3,8 @@
 }
 body{
   background-color: #FFFBF7;
+  font-family: "Maax Rounded";
+
 }
 
 @font-face {
@@ -187,4 +189,211 @@ display: inline-block;
 .prix-container label{
   padding: 23px 221px 30px 218px;
   border-radius: 47px;
+}
+
+
+/*---------------------resultats ----------------------*/
+.logo-rouge-resultats img{
+  width: 8%;
+  margin-left: 18em;
+  margin-top: 7em;
+}
+.logo-rouge-resultats .button-back{
+  margin-left: 4em;
+}
+
+.resultats-titre{
+  line-height: 3em;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+.resultats-titre h1{
+  font-size: 1em;
+  margin-left: 7.5em;
+}
+
+.resultats-p {
+  margin-left: 16em;
+  font-size: 1.4em;
+  margin-top: -2.7em;
+  margin-bottom: 4em;
+}
+
+/* jusqu'a MAINTENANT */
+
+/* le haut de boite grise*/
+
+.inline-resulats{
+  margin-left: 4em;
+}
+
+.inline-resulats .bonhomme, .rouge, .lieu {
+  display: inline-block;
+
+}
+
+.rouge{
+  color: #F84339;
+}
+
+.lieu{
+  margin-left: 17em;
+  color: #5A4543;
+
+}
+
+strong{
+  margin: 0em 1em;
+}
+
+
+/*la boite grise */
+
+.carre-gris{
+  background-color:#F5F0EA ;
+  padding: 2em 0em;
+  border: inherit;
+  width: 90%;
+  margin-left: 3em;
+  border-radius: 3%;
+}
+.inline-premier-resultats{
+  color: #5A4543;
+}
+
+.column-premier-resultats h2, h3{
+  flex-direction: column;
+}
+
+h2{
+  font-size: 3em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+.inline-premier-resultats .column-premier-resultats, .fruits{
+  display: inline-block;
+}
+
+.column-premier-resultats{
+  margin-left: 5em;
+  line-height: 2.5em;
+
+
+}
+
+.fruits{
+  margin-left: 13em;
+}
+
+.fruits img{
+  width: 210%;
+}
+
+
+.infos{
+  margin-left: 5em;
+  color: #5A4543;
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+.underline{
+  text-decoration: underline;
+  margin-bottom: -1em;
+}
+
+
+
+.inline-bottom-gris .telephone, .siteweb, .location{
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.inline-bottom-gris{
+  margin-top: 1em;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+.telephone {
+  font-family: "Maax Rounded";
+  text-decoration: none;
+	font-weight: bold;
+  margin-left: 2em;
+  background-color: #F5F0EA;
+  color:#5A4543;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+}
+
+
+.siteweb {
+  font-family: "Maax Rounded";
+	font-weight: bold;
+  margin-left: 3em;
+  background-color: #F5F0EA;
+  color:#5A4543;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+}
+
+.location{
+  font-family: "Maax Rounded";
+	font-weight: bold;
+  margin-left: 4em;
+  background-color: #F5F0EA;
+  color:#5A4543;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+}
+
+.inline-bottom-gris  a{
+  display: inline-block;
+}
+
+.telephone img a, .siteweb img a, .location img a{
+  width: 15%;
+}
+
+.telephone img, a{
+  padding-right: 0.5em;
+}
+.telephone img{
+ width: 20%;
+}
+
+.siteweb img, a{
+  padding-right: 0.5em;
+}
+
+.siteweb img{
+  width:20%;
+}
+
+.location img, a{
+  padding-right: 0.5em;
+}
+
+.location img{
+  width: 20%;
+}
+
+
+
+
+
+
+.inline .logorouge, .button-back {
+  display: inline-block;
+}
+
+.button-back{
+  margin-left: -5em;
 }
