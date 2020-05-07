@@ -141,7 +141,7 @@ input:checked + label::before {
   width: 20%;
 }
 
-/*spécialité*/
+/*-------------------spécialité-----------------------*/
 
 .specialites-titre h1{
   margin-left: 7em;
@@ -168,4 +168,24 @@ input:checked + label::before {
 }
 .inline .button-back, .next-button-specialites{
 display: inline-block;
+}
+
+/*---------------------prix ----------------------*/
+.prix-titre h1{
+  margin-left: 8.5em;
+  margin-bottom: 0.2em;
+}
+
+.prix-p{
+  margin-left: 2em;
+}
+
+.prix-container{
+  display: inline-grid;
+  margin-left: 12em;
+}
+
+.prix-container label{
+  padding: 23px 221px 30px 218px;
+  border-radius: 47px;
 }
