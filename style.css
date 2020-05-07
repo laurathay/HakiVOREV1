@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Maax Rounded";
+	src: url('assets/Maax Rounded.otf');
+}
+@font-face {
+	font-family: "Maax Rounded";
+	font-style: italic;
+  src: url('assets/Maax Rounded.otf');
+}
+@font-face {
+	font-family: "Maax Rounded";
+	font-weight: bold;
+  src: url('assets/Maax Rounded.otf');
+}
+
+body{
+  background-color: #F84339;
+}
+
+.logo{
+  width: 16em;
+  margin-left: 25em;
+  margin-top: 25em;
+  color: white; /* waiting on white logo*/ 
+}
