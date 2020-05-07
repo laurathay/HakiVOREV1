@@ -126,8 +126,8 @@ label:hover, input:focus + label {
 }
 
 input:checked + label {
-  background-color: black;
-  color: #fff;
+  background-color: #F5F0EA;
+  color: #5A4543;
 }
 
 input:checked + label::before {
@@ -139,4 +139,33 @@ input:checked + label::before {
   margin-left: 43em;
   margin-top: 35em;
   width: 20%;
+}
+
+/*spécialité*/
+
+.specialites-titre h1{
+  margin-left: 7em;
+  margin-bottom: 0.2em;
+}
+
+.specialites-p{
+  margin-left: 2em;
+}
+
+.specialites-container{
+  display: inline-grid;
+  margin-left: 17em;
+}
+
+.next-button-back, .next-button-specialites{
+  margin-left: 13em;
+  margin-top: 24em;
+  width: 20%;
+}
+
+.next-button-specialites{
+  margin-left: 11em;
+}
+.inline .next-button-back, .next-button-specialites{
+display: inline-block;
 }
