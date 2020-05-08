@@ -20,29 +20,29 @@ body{
 }
 
 .logo img{
-  width: 13%;
-  margin-left: 23em;
-  margin-top: 7em;
+  width: 18%;
+  margin-left: 24em;
+  margin-top: 16em;
 }
 
 h1{
-  font-weight: 800;
-  margin-top: 5em;
-  margin-left: 5.5em;
+  margin-top: 3em;
+  margin-left: 3em;
   color: #5A4543;
-  font-size: xxx-large;
+  font-size: 4em;
   font-style: bold;
   font-family: "Maax Rounded";
   font-weight: bold;
-  src: url('assets/Maax Rounded.otf');
 }
 
 p{
   font-family: "Maax Rounded";
-  line-height: 2.5em;
-  margin-left: -4em;
+  line-height: 1.9em;
+  margin-left: 0em;
   text-align: center;
   color: #5A4543;
+  font-size: 1.8em;
+  margin-top: -0.4em;
 }
 
 p strong{
@@ -57,20 +57,20 @@ p strong{
 }
 
 .consent-button{
-margin-left: 22em;
-margin-top: 5em;
-width: 20%;
+margin-left: 23em;
+margin-top: 7em;
+width: 25%;
 
 }
 
 .geolocalisation-logo{
 margin-left: 21em;
 margin-top: 11em;
-width: 25%;
+width: 35%;
 }
 
 .next-button{
-  margin-left: 43em;
+  margin-left: 23em;
   margin-top: 7em;
-  width: 22%;
+  width: 25%;
 }
