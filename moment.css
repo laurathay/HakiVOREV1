@@ -226,32 +226,84 @@ display: inline-block;
 
 /*---------------------prix ----------------------*/
 .prix-titre h1{
-  margin-left: 8.5em;
+  margin-left: 6.2em;
   margin-bottom: 0.2em;
+  font-size: 4em;
+  color: #5A4543;
+  margin-top: 1em;
+  letter-spacing: 1px;
+
 }
 
 .prix-p{
-  margin-left: 23em;
+  margin-left: 10em;
+  font-size: 2em;
+  margin-top: -0.8em;
 }
 
 .prix-container{
   display: inline-grid;
-  margin-left: 12em;
+  margin-left: 13em;
+  margin-top: 4em;
+
+}
+.prix-container label{
+ padding: 35px 275px 35px 275px;
+  border-radius: 130px;
+  margin-left: -1em;
+}
+.prix-container label {
+  font-family: "Maax Rounded";
+  font-style: bold;
+  font-size: 2.4em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 35px;
+  padding: 20px 159px 30px 164px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #F84339;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
 }
 
 .prix-container label{
   padding: 23px 221px 30px 218px;
   border-radius: 47px;
+  margin-left: -2em;
 }
 
-.specialites-button-back {
-  margin-left: 11em;
-  width:25%;
+.prix-container label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 21px;
+  bottom: 23px;
+  left: 13px;
+  width: 0px;
+  border-radius: 100px;
+  transition: background-color .2s;
 }
 
-.button-back {
-  margin-left: 13em;
+.prix-container label{
+  padding: 40px 290px 40px 290px;
+  border-radius: 80px;
 }
+
+.next-button-prix, .back-button-prix {
+  margin-left: 8em;
+  margin-top: 10em;
+  width: 20%;
+}
+
+
+.inline .back-button-prix, .next-button-prix{
+display: inline-block;
+}
+
 /*---------------------resultats ----------------------*/
 .logo-rouge-resultats img{
   width: 8%;
