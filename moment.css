@@ -25,17 +25,17 @@ body{
 }
 
 .logo-rouge img{
-  width: 8%;
+  width: 10%;
   margin-left: 26em;
   margin-top: 7em;
 }
 
-h1{
-  font-weight: 800;
+.moment h1{
+  letter-spacing: 1px;
   margin-top: 1em;
-  margin-left: 8em;
+  margin-left: 6em;
   color: #5A4543;
-  font-size: xxx-large;
+  font-size: 4em;
   font-style: bold;
   font-family: "Maax Rounded";
   font-weight: bold;
@@ -44,11 +44,11 @@ h1{
 
 .moment-p p{
   font-family: "Maax Rounded";
-  font-size: 1.5em;
+  font-size: 1.8em;
   line-height: 2.5em;
-  margin-left: 2em;
+  margin-left: 1.6em;
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   color: #5A4543;
   margin-top: -1em;
 }
@@ -57,6 +57,7 @@ h1{
 .moment-container {
     display: inline-grid;
     margin-left: 11em;
+    margin-top: -3em;
 
 }
 
@@ -73,7 +74,7 @@ header label{
 label {
   font-family: "Maax Rounded";
   font-style: bold;
-  font-size: 1.4em;
+  font-size: 2.4em;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -101,8 +102,9 @@ header label::before {
 }
 
 .moment-container label{
-  padding: 35px 250px 45px 253px;
-  border-radius: 47px;
+  padding: 40px 292px 52px 301px;
+  border-radius: 59px;
+  margin-left: -2em;
 }
 
 .moment-container label::before {
@@ -132,12 +134,17 @@ input:checked + label::before {
 }
 
 
-.next-button{
-  margin-left: 43em;
-  margin-top: 35em;
-  width: 20%;
+.moment-next-button{
+  margin-left: 37em;
+  margin-top: 46em;
+  width: 24%;
 }
 
+.next-button{   /* au cas ou jai cassé quelque chose pcq jai mis au moment*/
+  margin-left: 37em;
+  margin-top: 46em;
+  width: 24%;
+}
 /*-------------------spécialité-----------------------*/
 
 .specialites-titre h1{
