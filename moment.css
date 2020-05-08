@@ -190,8 +190,9 @@ display: inline-block;
   padding: 23px 221px 30px 218px;
   border-radius: 47px;
 }
-
-
+.button-back {
+    margin-left: 13em;
+}
 /*---------------------resultats ----------------------*/
 .logo-rouge-resultats img{
   width: 8%;
@@ -230,17 +231,25 @@ display: inline-block;
 
 .inline-resulats .bonhomme, .rouge, .lieu {
   display: inline-block;
-
+  margin-bottom: -0.5em;
 }
 
+.bonhomme{
+  width: 2%;
+  margin-right: 0.4em;}
 .rouge{
   color: #F84339;
 }
 
-.lieu{
-  margin-left: 17em;
-  color: #5A4543;
+.rouge p{
+  font-size: 1em;
+}
 
+.lieu{
+  margin-left: 21em;
+  color: #5A4543;
+  font-size: 1em;
+  margin-bottom: -1em;
 }
 
 strong{
@@ -307,6 +316,11 @@ h3{
 
 
 
+
+
+/*sous la boite grise*/
+
+
 .inline-bottom-gris .telephone, .siteweb, .location{
   display: inline-block;
   font-size: 1.5em;
@@ -318,17 +332,15 @@ h3{
 
 a{
   text-decoration: none;
-
+  color:#5A4543;    /*a retenir cette technique pour enlever la couleur bleu et le surlignement des liens et changer leur couleur */
 }
 
 
 .telephone {
   font-family: "Maax Rounded";
-  text-decoration: none;
 	font-weight: bold;
   margin-left: 2em;
   background-color: #F5F0EA;
-  color:#5A4543;
   padding: 0.5em 1em;
   border-radius: 30px;
 }
@@ -339,26 +351,45 @@ a{
 	font-weight: bold;
   margin-left: 3em;
   background-color: #F5F0EA;
-  color:#5A4543;
-  padding: 0.5em 1em;
+  padding: 0.8em 2em;
   border-radius: 30px;
 }
 
 .location{
   font-family: "Maax Rounded";
 	font-weight: bold;
-  margin-left: 4em;
-  background-color: #F5F0EA;
-  color:#5A4543;
-  padding: 0.5em 1em;
+  margin-left: 2em;
+  background-color: #5A4543;
+  color: #FFFFFF;
+  padding: 0.4em 1em;
   border-radius: 30px;
+  line-height: 1.6em;
 }
 
-.inline-bottom-gris  a{
+.location a{
+  color: #FFFFFF;
+  margin-right: 0.5em;
+
+}
+
+.inline-bottom-gris .telephone a{
   display: inline-block;
+  width:110%;
+}
+
+.inline-bottom-gris .siteweb a{
+  display: inline-block;
+  width:114%;
+  padding: 1px 1px;
+}
+
+.inline-bottom-gris .location a{
+  display: inline-block;
+  width:106%;
 }
 
 .telephone img a, .siteweb img a, .location img a{
+  display:inline-block;
   width: 15%;
 }
 
@@ -366,15 +397,17 @@ a{
   padding-right: 0.5em;
 }
 .telephone img{
- width: 20%;
+ width: 21%;
+ margin-right: 0.5em;
 }
 
 .siteweb img, a{
-  padding-right: 0.5em;
+  padding-right: 0.3em;
 }
 
 .siteweb img{
-  width:20%;
+  width:19%;
+  margin-right: 0.3em;
 }
 
 .location img, a{
@@ -390,10 +423,10 @@ a{
 
 
 
-.inline .logorouge, .button-back {
+.inline .logorouge, .button-back-resultats {
   display: inline-block;
 }
 
-.button-back{
+.button-back-resultats{
   margin-left: -5em;
 }
