@@ -178,7 +178,7 @@ display: inline-block;
 }
 
 .prix-p{
-  margin-left: 2em;
+  margin-left: 23em;
 }
 
 .prix-container{
@@ -191,7 +191,13 @@ display: inline-block;
   border-radius: 47px;
 }
 .button-back {
-    margin-left: 13em;
+    /*margin-left: 13em;*/
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 157px;
+top: 849px;
+transform: rotate(0deg);
 }
 /*---------------------resultats ----------------------*/
 .logo-rouge-resultats img{

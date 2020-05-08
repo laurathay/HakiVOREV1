@@ -18,11 +18,9 @@ body{
 }
 
 .logo{
-  width: 16em;
-  margin-left: 20em;
-  margin-top: 60em;
-}
-
-img{
-	width:129%;
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  left: 143px;
+  top: 417px;
 }
