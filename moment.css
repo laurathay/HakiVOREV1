@@ -71,7 +71,7 @@ header label{
    padding: 11px 22px 11px 21px;
 }
 
-label {
+.moment label {
   font-family: "Maax Rounded";
   font-style: bold;
   font-size: 2.4em;
@@ -148,21 +148,66 @@ input:checked + label::before {
 /*-------------------spécialité-----------------------*/
 
 .specialites-titre h1{
-  margin-left: 7em;
+  margin-left: 5em;
+  letter-spacing: 1px;
   margin-bottom: 0.2em;
+  font-size: 4em;
+  margin-top: 1em;
+  color: #5A4543;
 }
 
 .specialites-p{
-  margin-left: 2em;
+  margin-left: 10em;
+  margin-top: -0.9em;
+  font-size: 1.8em;
+  color: #5A4543;
+
 }
 
 .specialites-container{
   display: inline-grid;
   margin-left: 13em;
+  margin-top: 2em;
 }
 .specialites-container label{
-  padding: 23px 221px 30px 218px;
-  border-radius: 47px;
+  padding: 38px 313px 49px 290px;
+  border-radius: 130px;
+  margin-left: -1em;
+}
+.specialites label {
+  font-family: "Maax Rounded";
+  font-style: bold;
+  font-size: 2.4em;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 35px;
+  padding: 20px 159px 30px 164px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #F84339;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+.specialites-container label{
+  padding: 40px 292px 52px 301px;
+  border-radius: 59px;
+  margin-left: -2em;
+}
+
+.specialites-container label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 21px;
+  bottom: 23px;
+  left: 13px;
+  width: 0px;
+  border-radius: 100px;
+  transition: background-color .2s;
 }
 
 .button-back, .next-button-specialites{
@@ -173,6 +218,7 @@ input:checked + label::before {
 
 .next-button-specialites{
   margin-left: 11em;
+  width:25%;
 }
 .inline .button-back, .next-button-specialites{
 display: inline-block;
@@ -197,14 +243,14 @@ display: inline-block;
   padding: 23px 221px 30px 218px;
   border-radius: 47px;
 }
+
+.specialites-button-back {
+  margin-left: 11em;
+  width:25%;
+}
+
 .button-back {
-    /*margin-left: 13em;*/
-    position: absolute;
-width: 100px;
-height: 100px;
-left: 157px;
-top: 849px;
-transform: rotate(0deg);
+  margin-left: 13em;
 }
 /*---------------------resultats ----------------------*/
 .logo-rouge-resultats img{
