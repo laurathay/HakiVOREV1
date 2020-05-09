@@ -130,4 +130,5 @@ width: 35%;
   margin-left: 23em;
   margin-top: 7em;
   width: 25%;
+  transform: rotate(180deg);
 }
