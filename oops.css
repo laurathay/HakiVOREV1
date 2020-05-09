@@ -56,7 +56,12 @@ p strong{
   flex-direction: column;
 }
 
-.column .logo-attention{
+.column-desole .consent-button, .logo-attention, .next-button{
+  display: flex;
+  flex-direction: column;
+}
+
+.column .logo-attention, .column-desole .logo-attention{
   width: 44%;
   margin-left: 18em;
   margin-top: 15em;
@@ -67,5 +72,13 @@ p strong{
   margin-left: 24em;
   width: 24%;
   transform: rotate(180deg);
+
+}
+
+.column-desole .next-button{
+  margin-top: 14em;
+  margin-left: 24em;
+  width: 24%;
+  transform: rotate(0deg);
 
 }
