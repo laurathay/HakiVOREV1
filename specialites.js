@@ -4,4 +4,4 @@ $(document).ready(function() {
 
     $('#next-container').toggle(flag);
   });
-});
+}); 
