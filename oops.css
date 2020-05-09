@@ -1,0 +1,71 @@
+body{
+  background-color: #FFFBF7;
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	src: url('assets/Maax Rounded.otf');
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	font-style: italic;
+  src: url('assets/Maax Rounded Italic.otf');
+}
+
+@font-face {
+	font-family: "Maax Rounded";
+	font-weight: bold;
+  src: url('assets/Maax Rounded Bold.otf');
+}
+
+.logo img{
+  width: 18%;
+  margin-left: 24em;
+  margin-top: 16em;
+}
+
+h1{
+  margin-top: 3em;
+  margin-left: 6em;
+  color: #5A4543;
+  font-size: 4em;
+  font-style: bold;
+  font-family: "Maax Rounded";
+  font-weight: bold;
+}
+
+p{
+  font-family: "Maax Rounded";
+  line-height: 1.9em;
+  margin-left: 0em;
+  text-align: center;
+  color: #5A4543;
+  font-size: 1.3em;
+  margin-top: -0.4em;
+}
+
+p strong{
+  font-family: "Maax Rounded";
+	font-weight: bold;
+  src: url('assets/Maax Rounded.otf');
+}
+
+.column .consent-button, .logo-attention, .next-button{
+  display: flex;
+  flex-direction: column;
+}
+
+.column .logo-attention{
+  width: 44%;
+  margin-left: 18em;
+  margin-top: 15em;
+}
+
+.column .next-button{
+  margin-top: 14em;
+  margin-left: 24em;
+  width: 24%;
+  transform: rotate(180deg);
+
+}
