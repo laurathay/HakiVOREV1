@@ -82,7 +82,7 @@ header label{
   padding: 20px 159px 30px 164px;
   border-radius: 30px;
   color: #fff;
-  background-color: #F84339;
+  background-color: #ccc;
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
@@ -125,8 +125,8 @@ label:hover, input:focus + label {
 }
 
 input:checked + label {
-  background-color: #F5F0EA;
-  color: #5A4543;
+  background-color: #F84339;
+  color: white;
 }
 
 input:checked + label::before {
@@ -185,7 +185,7 @@ input:checked + label::before {
   padding: 20px 159px 30px 164px;
   border-radius: 30px;
   color: #fff;
-  background-color: #F84339;
+  background-color: #ccc;
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
@@ -263,7 +263,7 @@ display: inline-block;
   padding: 20px 159px 30px 164px;
   border-radius: 30px;
   color: #fff;
-  background-color: #F84339;
+  background-color: #ccc;
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
