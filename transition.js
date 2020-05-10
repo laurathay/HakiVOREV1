@@ -1,7 +1,7 @@
 $(document).ready(function() {
     const newLocation = 'justeUnMoment.html';
     function newPage() {
-        window.location = newLocation 
+        window.location = newLocation
     }
     // On affiche le corps de la page en fadeIn
     $('body').fadeIn(1000);
@@ -9,7 +9,7 @@ $(document).ready(function() {
         // Cette fonction sera appelée à la fin du temps que tu donnes (ici 1000 millisecondes)
         function() {
             // On fadeout la page actuelle et on execute la fonction newpage à la fin du fadeout
-            $('body').fadeOut(1000, newpage);
+            $('body').fadeOut(1000, newPage);
         },
         1000
     );
